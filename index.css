@@ -1,0 +1,181 @@
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 75%;
+	height: 15px;
+	background-color: #f9b515;
+	border-radius: 5px;
+	font-size: 0;
+}
+
+nav a {
+	line-height: 50px;
+	height: 94%;
+	display: inline-block;  
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+    font-size: 45px;
+    margin-left: 30%;
+    font-family: 'Playpen Sans', cursive;
+}
+
+h2{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+.container{
+    /* background-image: url('./img/Index/Inicio.jpg'); */
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    width: 79%;
+    margin-left: 12%;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left{
+    font-size: 50px;
+    margin-right: 78%;
+    color: #0A2D72;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+.right{
+    font-size: 50px;
+    margin-left: 78%;
+    color: #0A2D72;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+.right:hover {
+    color: #f9b515;
+    cursor: pointer;
+  }
+
+.left:hover {
+    color: #f9b515;
+    cursor: pointer;
+  }
+
+  .btn-12,
+.btn-12 *,
+.btn-12 :after,
+.btn-12 :before,
+.btn-12:after,
+.btn-12:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-12 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #0A2D72;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Playpen Sans', cursive;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #f9b515);
+  padding: 0;
+  text-transform: uppercase;
+  margin-left: 45%;
+  margin-top: 8%;
+}
+
+.btn-12:disabled {
+  cursor: default;
+}
+
+.btn-12:-moz-focusring {
+  outline: auto;
+}
+
+.btn-12 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-12 [hidden] {
+  display: none;
+}
+
+.btn-12 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+
+.btn-12 span {
+  mix-blend-mode: difference;
+}
+
+.btn-12:after,
+.btn-12:before {
+  background: linear-gradient(
+    90deg,
+    #fff 25%,
+    transparent 0,
+    transparent 50%,
+    #fff 0,
+    #fff 75%,
+    transparent 0
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: translateY(var(--progress, 100%));
+  transition: transform 0.2s ease;
+}
+
+.btn-12:after {
+  --progress: -100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0,
+    transparent 25%,
+    #fff 0,
+    #fff 50%,
+    transparent 0,
+    transparent 75%,
+    #fff 0
+  );
+  z-index: -1;
+}
+
+.btn-12:hover:after,
+.btn-12:hover:before {
+  --progress: 0;
+}
+
+
+.riesgos{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.logo{
+    margin-top: 25%;
+}

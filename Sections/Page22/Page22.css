@@ -1,0 +1,149 @@
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 75%;
+	height: 15px;
+	background-color: #f9b515;
+	border-radius: 5px;
+	font-size: 0;
+}
+
+nav a {
+	line-height: 50px;
+	height: 94%;
+	display: inline-block;  
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+    font-size: 45px;
+    margin-left: 30%;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.footer{
+    margin-top: -1%;
+}
+
+h2{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+h5{
+  font-family: 'Playpen Sans', cursive;
+  text-align: center;
+}
+
+.container{
+    /* background-image: url('./img/Index/Inicio.jpg'); */
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    width: 75%;
+    margin-left: 12%;
+    overflow: hidden;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left{
+    font-size: 50px;
+    margin-right: 85%;
+    color: #0A2D72;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+.right{
+  position: absolute;
+  top: 40%;
+  transform: translateY(-60%);
+  margin-left: 41%;
+  font-size: 270%;
+  color: #0A2D72;
+  border: #fff;
+
+}
+
+.right:hover {
+    color: #f9b515;
+    cursor: pointer;
+  }
+
+.left:hover {
+    color: #f9b515;
+    cursor: pointer;
+}
+
+p{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.card {
+    width: 300px;
+    height: 20px;
+    background-color: #eee;
+    text-align: center;
+    border: 10px solid #eee;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 10px #bbb, inset -5px -5px 10px #fff;
+    transition: 0.5s;
+  }
+  
+  .card:hover {
+    height: 200px;
+  }
+  
+  .icon {
+    width: 80px;
+    height: 80px;
+    color: #0A2D72;
+    font-size: 45px;
+    background-color: #eee;
+    margin: 10px auto;
+    margin-top: 25%;
+    border-radius: 50%;
+    box-shadow: 8px 8px 10px #ddd, -8px -8px 10px #fff;
+  }
+  
+  .content {
+    color: #000000;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 10px #ddd, -8px -8px 10px #fff;
+    transform: translateY(-80px) scale(0);
+    transition: all 0.5s;
+  }
+  
+  .card:hover .content {
+    transform: translateY(0) scale(1)
+  }
+  
+  .content h3 {
+    text-shadow: 2px 2px 0px #fff;
+  }

@@ -1,0 +1,151 @@
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 75%;
+	height: 15px;
+	background-color: #f9b515;
+	border-radius: 5px;
+	font-size: 0;
+}
+
+nav a {
+	line-height: 50px;
+	height: 94%;
+	display: inline-block;  
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+    font-size: 45px;
+    margin-left: 30%;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.footer{
+    margin-top: 6%;
+}
+
+h2{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+h5{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+
+p{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container{
+    /* background-image: url('./img/Index/Inicio.jpg'); */
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    width: 75%;
+    margin-left: 12%;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left{
+    font-size: 50px;
+    margin-right: 85%;
+    color: #0A2D72;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+
+.right{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-60%);
+    margin-left: 41%;
+    font-size: 270%;
+    color: #0A2D72;
+    border: #fff;
+}
+
+.right:hover {
+    color: #f9b515;
+    cursor: pointer;
+  }
+
+.left:hover {
+    color: #f9b515;
+    cursor: pointer;
+}
+.paralelogramo {
+    width: 80px; 
+    margin-left: 8%;
+    height: 80px; 
+    border: 3px solid #08124e; 
+    background: #0A2D72;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+}
+
+.card{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    width:500px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #0A2D72;
+    border-radius:15px;
+    margin-left: 12%;
+    margin-top: 8%;
+  }
+
+.icon{
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+}
+
+  
+.icon5{
+    color: rgb(255, 255, 255);
+    margin-top: 20%;
+}
+
+
+.btns{
+    width: 55%;
+    height: 85%;
+    background-color: #f9b515;
+    border-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 70%;
+    margin-left: 260%;
+    transform: skew(-20deg);
+}
+
+.btns:hover{
+    color: #f9b515;
+    width: 50%;
+}

@@ -1,0 +1,193 @@
+nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 75%;
+	height: 15px;
+	background-color: #f9b515;
+	border-radius: 5px;
+	font-size: 0;
+}
+
+nav a {
+	line-height: 50px;
+	height: 94%;
+	display: inline-block;  
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+  font-size: 45px;
+  margin-left: 30%;
+  font-family: 'Playpen Sans', cursive;
+}
+
+.footer{
+    margin-top: 5%;
+}
+
+h2{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+h5{
+  font-family: 'Playpen Sans', cursive;
+  text-align: center;
+}
+
+h1{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+}
+
+.container{
+    /* background-image: url('./img/Index/Inicio.jpg'); */
+    background-position: top center;
+    background-size: contain;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 1;
+    width: 75%;
+    margin-left: 12%;
+    overflow: hidden;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.left{
+  font-size: 50px;
+  margin-right: 85%;
+  color: #0A2D72;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+}
+
+
+.right{
+  position: absolute;
+  top: 40%;
+  transform: translateY(-60%);
+  margin-left: 41%;
+  font-size: 270%;
+  color: #0A2D72;
+  border: #fff;
+}
+
+.right:hover {
+  color: #f9b515;
+  cursor: pointer;
+}
+
+.left:hover {
+  color: #f9b515;
+  cursor: pointer;
+}
+
+p{
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.icon{
+  background-color: #0A2D72;
+
+}
+
+.wrapper {
+  margin-left: 25%;
+  display: inline-flex;
+  list-style: none;
+  height: 140px;
+  width: 290%;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(64, 97, 241, 0.425);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  height: 300px;
+  font-size: 15px;
+  background: #fff;
+  color: #fff;
+  padding: 10px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 30%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  background-color: #0A2D72;
+
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  font-family: 'Playpen Sans', cursive;
+  font-size: 25px;
+
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #fff;
+}
+
+.img{
+    width: 40%;
+}
+

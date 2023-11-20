@@ -1,0 +1,76 @@
+.banner{
+    background-image: url('../../img/Page21/SARLAFT.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    padding: 18%;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .left{
+    font-size: 50px;
+    margin-right: 85%;
+    color: #0A2D72;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-40%);
+  }
+  
+  
+  .right{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-60%);
+    margin-left: 82%;
+    font-size: 270%;
+    color: #0A2D72;
+    border: #fff;
+  }
+  
+  .right:hover {
+    color: #f9b515;
+    cursor: pointer;
+  }
+  
+  .left:hover {
+    color: #f9b515;
+    cursor: pointer;
+  }
+
+  nav {
+	margin: 27px auto 0;
+	position: relative;
+	width: 75%;
+	height: 15px;
+	background-color: #f9b515;
+	border-radius: 5px;
+	font-size: 0;
+}
+
+nav a {
+	line-height: 50px;
+	height: 94%;
+	display: inline-block;  
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+    font-size: 45px;
+    margin-left: 30%;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.footer{
+    margin-top: 1%;
+}
